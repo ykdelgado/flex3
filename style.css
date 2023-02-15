@@ -1,0 +1,48 @@
+.nav{
+  background-color:#D2D2FF;
+  width:100%;
+  display: block;
+  padding:2px;
+ 
+}
+ul{
+  list-style-type:none;
+  display:flex;
+  justify-content: space-around;
+  padding:15px;
+  background-color:white;
+}
+
+.navimg{
+  max-width:35px;
+  max height:35px;
+  object-fit:contain;
+  overflow:hidden;
+}
+.main{
+  width:100%;
+    height:450px;
+  backgroung-color:pink;
+ 
+}
+
+.row{
+ display:flex;
+  justify-content:space-between;
+ 
+}
+.mainimg{
+  width:100%;
+    height:100%;
+  margin:0 auto;
+  object-fit:cover;
+}
+.card{
+  width:25%;
+  height:200px;
+  background-color:#D2D2FF;
+  margin:10px;
+  display:flex;
+  flex-direction:column;
+}
+body{background-color:#D2D2FF;}
